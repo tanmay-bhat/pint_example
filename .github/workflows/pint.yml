@@ -25,4 +25,4 @@ jobs:
           token: ${{ github.token }}
           workdir: 'applications/rules'
           requireOwner: 'true'
-          config: .github/workflows/pint.hcl
+          config: 'applications/pint.hcl'
